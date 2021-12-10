@@ -1,0 +1,8 @@
+<button type="button" class="btn btn-primary"  (click)="getPosts()">Get
+    
+</button>
+<br>
+<br>
+<div *ngFor="let key of pros | async">
+    {{key | json}}
+    </div>
